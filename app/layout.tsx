@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`h-screen flex ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`h-full flex bg-[#F7F7F7] ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="h-full w-70 py-4 ml-4">
           <Sidebar />
