@@ -1,9 +1,10 @@
+import Navbar from "@/components/navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-   <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+   <div className="h-full w-full py-4 mx-3">
+    <Navbar />
    </div>
   );
 }
